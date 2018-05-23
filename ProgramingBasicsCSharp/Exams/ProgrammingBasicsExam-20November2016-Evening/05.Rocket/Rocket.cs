@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _05.Rocket
 {
-    class Program
+    class Rocket
     {
         static void Main(string[] args)
         {

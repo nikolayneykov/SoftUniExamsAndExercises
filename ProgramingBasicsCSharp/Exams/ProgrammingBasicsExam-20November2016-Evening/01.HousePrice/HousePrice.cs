@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01.HousePrice
 {
-    class Program
+    class HousePrice
     {
         static void Main(string[] args)
         {

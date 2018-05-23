@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _02.FlowerShop
 {
-    class Program
+    class FlowerShop
     {
         static void Main(string[] args)
         {

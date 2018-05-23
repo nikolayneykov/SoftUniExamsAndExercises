@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _03.BikeRace
 {
-    class Program
+    class BikeRace
     {
         static void Main(string[] args)
         {

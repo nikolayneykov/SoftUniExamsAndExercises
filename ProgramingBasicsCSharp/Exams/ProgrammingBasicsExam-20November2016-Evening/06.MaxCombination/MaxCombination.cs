@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _06.MaxCombination
 {
-    class Program
+    class MaxCombination
     {
         static void Main(string[] args)
         {
