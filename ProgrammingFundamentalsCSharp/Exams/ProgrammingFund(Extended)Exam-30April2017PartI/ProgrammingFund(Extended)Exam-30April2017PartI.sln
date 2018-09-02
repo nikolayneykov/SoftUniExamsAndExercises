@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Wormtest", "01.Wormtest\01.Wormtest.csproj", "{50D3E7E5-D0A1-4618-963F-33044B835B7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.WormIpsum", "02.WormIpsum\02.WormIpsum.csproj", "{38126EE5-82B0-47D4-9A68-9F034DB50BB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50D3E7E5-D0A1-4618-963F-33044B835B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D3E7E5-D0A1-4618-963F-33044B835B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D3E7E5-D0A1-4618-963F-33044B835B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D3E7E5-D0A1-4618-963F-33044B835B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38126EE5-82B0-47D4-9A68-9F034DB50BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38126EE5-82B0-47D4-9A68-9F034DB50BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38126EE5-82B0-47D4-9A68-9F034DB50BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38126EE5-82B0-47D4-9A68-9F034DB50BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5F2C9F2-A916-428F-86C8-A844BC643A76}
+	EndGlobalSection
+EndGlobal

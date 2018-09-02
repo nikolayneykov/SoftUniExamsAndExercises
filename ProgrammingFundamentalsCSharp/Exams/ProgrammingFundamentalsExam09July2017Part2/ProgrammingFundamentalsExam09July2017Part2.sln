@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Regexmon", "03.Regexmon\03.Regexmon.csproj", "{DF6A10F0-0240-456E-98BC-83A3BFC3A7CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.PokemonEvolution", "04.PokemonEvolution\04.PokemonEvolution.csproj", "{ABBE1693-991F-46F3-8F1A-9BD8FAC7CF7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF6A10F0-0240-456E-98BC-83A3BFC3A7CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF6A10F0-0240-456E-98BC-83A3BFC3A7CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF6A10F0-0240-456E-98BC-83A3BFC3A7CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF6A10F0-0240-456E-98BC-83A3BFC3A7CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABBE1693-991F-46F3-8F1A-9BD8FAC7CF7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABBE1693-991F-46F3-8F1A-9BD8FAC7CF7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABBE1693-991F-46F3-8F1A-9BD8FAC7CF7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABBE1693-991F-46F3-8F1A-9BD8FAC7CF7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E939A42-DEA6-42E8-AD36-9DC8B25CC3CC}
+	EndGlobalSection
+EndGlobal

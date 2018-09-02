@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Trainers", "01.Trainers\01.Trainers.csproj", "{6FC24C45-E93E-4624-931D-52EC07CEC4FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Entertrain", "02.Entertrain\02.Entertrain.csproj", "{3339AAB9-0ECC-46EF-9B94-23F4787CF0DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FC24C45-E93E-4624-931D-52EC07CEC4FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC24C45-E93E-4624-931D-52EC07CEC4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC24C45-E93E-4624-931D-52EC07CEC4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC24C45-E93E-4624-931D-52EC07CEC4FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3339AAB9-0ECC-46EF-9B94-23F4787CF0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3339AAB9-0ECC-46EF-9B94-23F4787CF0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3339AAB9-0ECC-46EF-9B94-23F4787CF0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3339AAB9-0ECC-46EF-9B94-23F4787CF0DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4DB24B0-DB38-4034-B7BD-CEC1B9CA8AB7}
+	EndGlobalSection
+EndGlobal

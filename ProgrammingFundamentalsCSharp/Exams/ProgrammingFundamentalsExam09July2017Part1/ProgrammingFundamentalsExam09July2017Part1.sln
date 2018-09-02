@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.PokeMon", "01.PokeMon\01.PokeMon.csproj", "{CBF1619C-15F8-4218-A89D-BBFD2B5AF084}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.PokemonDontGo", "02.PokemonDontGo\02.PokemonDontGo.csproj", "{2433FC07-3F82-49B5-9B3F-63EAED3C4DEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBF1619C-15F8-4218-A89D-BBFD2B5AF084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF1619C-15F8-4218-A89D-BBFD2B5AF084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF1619C-15F8-4218-A89D-BBFD2B5AF084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF1619C-15F8-4218-A89D-BBFD2B5AF084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2433FC07-3F82-49B5-9B3F-63EAED3C4DEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2433FC07-3F82-49B5-9B3F-63EAED3C4DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2433FC07-3F82-49B5-9B3F-63EAED3C4DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2433FC07-3F82-49B5-9B3F-63EAED3C4DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F81D1D5-57AE-457F-9C97-DF07A9FB4EC4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SplinterTrip", "01.SplinterTrip\01.SplinterTrip.csproj", "{0BCB1761-5725-4B6B-945A-372D607AE44B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.SpyGram", "02.SpyGram\02.SpyGram.csproj", "{8C371046-75AF-4FF0-A6DB-E8E90CB94911}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BCB1761-5725-4B6B-945A-372D607AE44B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BCB1761-5725-4B6B-945A-372D607AE44B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BCB1761-5725-4B6B-945A-372D607AE44B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BCB1761-5725-4B6B-945A-372D607AE44B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C371046-75AF-4FF0-A6DB-E8E90CB94911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C371046-75AF-4FF0-A6DB-E8E90CB94911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C371046-75AF-4FF0-A6DB-E8E90CB94911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C371046-75AF-4FF0-A6DB-E8E90CB94911}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB72E825-5E45-4792-8891-BC420A58E20C}
+	EndGlobalSection
+EndGlobal

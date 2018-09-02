@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.StarEnigma", "03.StarEnigma\03.StarEnigma.csproj", "{DED8BEFB-E5F3-4C89-9EBA-DDD949B18C5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.ForceBook", "04.ForceBook\04.ForceBook.csproj", "{285183DE-19FC-4A51-96AF-720200F95355}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DED8BEFB-E5F3-4C89-9EBA-DDD949B18C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED8BEFB-E5F3-4C89-9EBA-DDD949B18C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED8BEFB-E5F3-4C89-9EBA-DDD949B18C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED8BEFB-E5F3-4C89-9EBA-DDD949B18C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{285183DE-19FC-4A51-96AF-720200F95355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285183DE-19FC-4A51-96AF-720200F95355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285183DE-19FC-4A51-96AF-720200F95355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285183DE-19FC-4A51-96AF-720200F95355}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFC743F6-ECBB-4BFD-8286-EBBF6C71EF97}
+	EndGlobalSection
+EndGlobal
