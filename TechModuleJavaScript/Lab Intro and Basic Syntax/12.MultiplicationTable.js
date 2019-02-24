@@ -1,0 +1,2 @@
+ 
+printMultiplicationTable(5);

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        div {
+            margin: 0;
+            padding: 0;
+        }
+
+        span {
+            display: inline-block;
+            border: 1px solid black;
+            padding: 40px;
+        }
+
+        .black {
+            background: #000;
+        }
+
+        .white {
+            background: #fff;
+        }
+    </style>
+    <title>Chess Board</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    function printChessBoard(n) {
+        let result = '<div class="chessboard">';
+        let startColor = 'black';
+        for (let i = 0; i < n; i++) {
+            result += '\n  <div>'
+            let color = startColor;
+            for (let j = 0; j < n; j++) {
+                result += `\n    <span class="${color}"></span>`;
+                color = color === 'black' ? 'white' : 'black';
+            }
+            startColor = startColor === 'black' ? 'white' : 'black';
+            result += '\n  </div>'
+        }
+        result += '\n</div>';
+        return result;
+    }
+
+    document.body.innerHTML = printChessBoard(11);
+</script>
+
+</html>

@@ -1,0 +1,12 @@
+<h1 style="text-align:center">Edit Product</h1>
+<form action="/edit/{{product.id}}" method="POST">
+  <div class="form-group">
+    <label for="exampleInputName1">Name</label>
+    <input type="text" class="form-control" value="{{product.name}}" name="name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputName1">Price</label>
+    <input type="text" class="form-control" value="{{product.price}}" name="price">
+  </div>
+  <button type="submit" class="btn btn-default">Edit</button>
+</form>

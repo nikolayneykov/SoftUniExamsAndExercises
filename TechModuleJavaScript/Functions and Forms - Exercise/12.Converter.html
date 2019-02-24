@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <form>
+        From: <select id="from">
+            <option value="km">kilometers</option>
+            <option value="m">meters</option>
+            <option value="cm">centimeters</option>
+            <option value="mm">millimeters</option>
+        </select>
+        To: <select id="to">
+            <option value="km">kilometers</option>
+            <option value="m">meters</option>
+            <option value="cm">centimeters</option>
+            <option value="mm">millimeters</option>
+        </select>
+        Value: <input type="text" id="value">
+    </form>
+    <input type="submit" onclick="solve()"><br><br>
+    Result: <textarea id="result" readonly></textarea>
+</body>
+<script>
+    function solve() {
+        let from = $('#from').find(':selected').val();
+        let to = $('#to').find(':selected').val();
+        let distance = Number($('#value').val());
+
+        switch (from) {
+            case 'km': distance *= 1000; break;
+            case 'cm': distance /= 100; break;
+            case 'mm': distance /= 1000; break;
+        }
+        switch (to) {
+            case 'km': distance /= 1000; break;
+            case 'cm': distance *= 100; break;
+            case 'mm': distance *= 1000; break;
+        }
+
+        $('#result').val(distance);
+    }
+</script>
+
+</html>
