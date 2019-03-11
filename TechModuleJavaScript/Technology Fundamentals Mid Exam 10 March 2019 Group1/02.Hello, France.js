@@ -13,7 +13,7 @@ function solve(params) {
 
         if ((type === 'Clothes' && price <= clothesMaxPrice && budget - price >= 0) ||
             (type === 'Shoes' && price <= shoesMaxPrice && budget - price >= 0) ||
-            (type === 'Accessories' && price <= shoesMaxPrice && budget - price >= 0)) {
+            (type === 'Accessories' && price <= accessoriesMaxPrice && budget - price >= 0)) {
             budget -= price;
             boughtItemPrices.push(price);
         }
