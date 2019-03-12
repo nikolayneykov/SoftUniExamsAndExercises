@@ -1,0 +1,23 @@
+<a href="/create"><button type="button" class="btn btn-success btn-lg btn-block">Create Product</button></a>
+<h1 style="text-align:center">My Products</h1>
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Price</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each products}}
+    <tr>
+      <td>{{this.name}}</td>
+      <td>{{this.price}}</td>
+      <td>
+        <a href="/edit/{{this.id}}"><button type="button" class="btn btn-primary">Edit</button></a>
+        <a href="/delete/{{this.id}}"><button type="button" class="btn btn-danger">Delete</button></a></td>
+    </tr>
+    {{/each}}
+
+  </tbody>
+</table>
