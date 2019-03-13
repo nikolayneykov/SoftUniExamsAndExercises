@@ -1,0 +1,33 @@
+  <div id="band-wrapper">
+        <section class="band">
+            <article>
+                <form action="/create" method="POST">
+                    <div class="row">
+                        <label for="bandName">Band name:</label>
+                        <input type="text" id="bandName" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="row">
+                        <label for="members">Members:</label>
+                        <textarea rows="5" id="members" name="members" placeholder="Member 1, Member 2, ..." required></textarea>
+                    </div>
+                    <div class="row">
+                        <label for="honorarium">Honorarium:</label>
+                        <input type="number" min="0" step="any" id="honorarium" name="honorarium" placeholder="price" required>
+                    </div>
+                    <div class="row">
+                        <label for="genre">Genre:</label>
+                        <div class="genre-select">
+                            <input type="radio" id="genre" name="genre" value="Rock" checked>Rock
+                            <input type="radio" id="genre" name="genre" value="Metal">Metal
+                            <input type="radio" id="genre" name="genre" value="Pop">Pop
+                            <input type="radio" id="genre" name="genre" value="Other">Other
+                        </div>
+                    </div>
+                    <div>
+                        <button type="submit">Register</button>
+                        <a href="/">Cancel</a>
+                    </div>
+                </form>
+            </article>
+        </section>
+    </div>

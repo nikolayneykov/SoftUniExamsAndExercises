@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(196, 224, 255);
+}
+
+textarea, input {
+    resize: none;
+    outline: none;
+    padding: 2%;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 3% auto;
+}
+
+.wrapper .trip-create {
+    display: block;
+    width: 100%;
+}
+
+.wrapper .trip-create .create-header {
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.wrapper .trip-create .create-origin,
+.wrapper .trip-create .create-destination,
+.wrapper .trip-create .create-business,
+.wrapper .trip-create .create-economy
+{
+    display: block;
+    width: 70%;
+    margin: 2% auto;
+}
+
+.wrapper .trip-create .create-origin .create-origin-label,
+.wrapper .trip-create .create-destination .create-destination-label,
+.wrapper .trip-create .create-business .create-business-label,
+.wrapper .trip-create .create-economy .create-economy-label
+{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.wrapper .trip-create .create-origin .create-origin-content,
+.wrapper .trip-create .create-destination .create-destination-content,
+.wrapper .trip-create .create-business .create-business-content,
+.wrapper .trip-create .create-economy .create-economy-content
+{
+    margin-top: 1%;
+    font-size: 1.5em;
+    width: 95%;
+    border-radius: 10px;
+}
+
+.wrapper .create-button-holder {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+.wrapper .create-button-holder>* {
+    display: inline-block;
+    background-color: rgb(196, 220, 255);
+}
+
+.wrapper .create-button-holder a[type="button"],
+.wrapper .create-button-holder button
+{
+    width: 30%;
+    margin: auto;
+    padding: 1%;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Arial;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 95, 139);
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+}
+
+.wrapper .create-button-holder a[type="button"]:hover,
+.wrapper .create-button-holder button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 37, 139);
+    color: rgb(240, 240, 240);
+}
+
+.wrapper .create-button-holder a[type="button"]:hover,
+.wrapper .create-button-holder button:focus {
+    outline: none;
+}

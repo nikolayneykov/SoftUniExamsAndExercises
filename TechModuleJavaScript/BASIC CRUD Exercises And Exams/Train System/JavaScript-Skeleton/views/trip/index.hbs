@@ -1,0 +1,28 @@
+<div class="wrapper">
+    <div class="button-holder">
+        <a type="button" href="/create" class="log-button">Create New Trip</a>
+    </div>
+    <div class="content">
+        <div class="header">
+            <div class="origin-label">Origin</div>
+            <div class="destination-label">Destination</div>
+            <div class="actions-label">Actions</div>
+        </div>
+        <div class="main">
+            {{#each trips}}
+            <div class="trip">
+                <div class="trip-origin">
+                    {{origin}}
+                </div>
+                <div class="trip-destination">
+                    {{destination}}
+                </div>
+                <div class="trip-actions">
+                    <a type="button" href="/edit/{{id}}" class="edit-button">Edit</a>
+                    <a type="button" href="/delete/{{id}}" class="delete-button">Delete</a>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+<div id="band-wrapper">
+        <section class="band">
+            <article>
+                <form action="/delete/{{band._id}}" method="POST">
+                    <h3>Do you want to remove the band from the list?</h3>
+                    <div class="row">
+                        <h2>{{ band.name }}</h2>
+                    </div>
+                    <div class="row">
+                        <p>{{ band.members }}</p>
+                    </div>
+                    <div class="row">
+                        <p>{{ band.honorarium }}$</p>
+                    </div>
+                    <div class="row">
+                        <p>{{ band.genre }}</p>
+                    </div>
+                    <div>
+                        <button type="submit">Remove</button>
+                        <a href="/">Cancel</a>
+                    </div>
+                </form>
+            </article>
+        </section>
+    </div>

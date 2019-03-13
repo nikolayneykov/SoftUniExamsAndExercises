@@ -1,0 +1,23 @@
+<h1>Edit Game</h1>
+<section>
+    <div>
+        <form action="/edit/{{game._id}}" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" value="{{ game.name }}" name="name" />
+            <label for="dlc">DLC</label>
+            <input type="text" id="dlc" value="{{ game.dlc }}" name="dlc" />
+            <label for="price">Price</label>
+            <input type="number" min="0" step="any" id="price" value="{{ game.price }}" name="price" />
+            <label for="platform">Platform</label>
+            <select name="platform">
+                <option id="platform" value="PC">PC</option>
+                <option id="platform" value="Mac">Mac</option>
+                <option id="platform" value="PlayStation 4">PlayStation 4</option>
+                <option id="platform" value="PlayStation 3">PlayStation 3</option>
+            </select>
+
+            <button class="button" type="submit">Edit</button>
+            <button class="cancel button" type="button" onclick="location.href='/'">Cancel</button>
+        </form>
+    </div>
+</section>

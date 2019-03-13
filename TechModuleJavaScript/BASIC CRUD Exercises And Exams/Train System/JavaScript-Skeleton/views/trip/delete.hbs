@@ -1,0 +1,27 @@
+<div class="wrapper">
+    <form class="trip-create" method="POST">
+        <div class="create-header">
+            Delete Trip
+        </div>
+        <div class="create-origin">
+            <div class="create-origin-label">Origin</div>
+            <input class="create-origin-content" name="origin" value="{{origin}}" disabled="disabled"/>
+        </div>
+        <div class="create-destination">
+            <div class="create-destination-label">Destination</div>
+            <input class="create-destination-content" name="destination" value="{{destination}}" disabled="disabled"/>
+        </div>
+        <div class="create-business">
+            <div class="create-business-label">Business Class Price</div>
+            <input type="number" min="0" class="create-business-content" name="business" value="{{business}}" disabled="disabled"/>
+        </div>
+        <div class="create-economy">
+            <div class="create-economy-label">Economy Class Price</div>
+            <input type="number" min="0" class="create-economy-content" name="economy" value="{{economy}}" disabled="disabled"/>
+        </div>
+        <div class="create-button-holder">
+            <button type="submit" class="submit-button">Delete Trip</button>
+            <a type="button" href="/" class="back-button">Back</a>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,16 @@
+<section class="home">
+        <h2>Registered Bands:</h2>
+        {{#each bands}}
+            <article>
+                <h3>{{ name}}</h3>
+                <p>{{ members }}</p>
+                <p>{{ honorarium }}$</p>
+                <p>{{ genre }}</p>
+                <div>
+                    <a href="/edit/{{_id}}" class="fas fa-edit"></a>
+                    <a href="/delete/{{_id}}" class="fas fa-trash-alt"></a>
+                </div>
+            </article>
+        {{/each}}
+        <a id="create-button" href="/create">Register Band</a>
+</section>

@@ -1,0 +1,31 @@
+<h1>Game Store</h1>
+
+<div>
+    <button class="add-new" onclick="location.href='/create'">Create New Game</button>
+</div>
+
+<section>
+    <div>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>DLC</th>
+                <th>Price</th>
+                <th>Platform</th>
+                <th>Actions</th>
+            </tr>
+            {{#each games}}
+            <tr>
+                <td>{{ name }}</td>
+                <td>{{ dlc }}</td>
+                <td>{{ price }} $</td>
+                <td>{{ platform }}</td>
+                <td>
+                    <button onclick="location.href='/edit/{{ _id }}'" class="edit">Edit</button>
+                    <button onclick="location.href='/delete/{{ _id }}'" class="delete">Delete</button>
+                </td>
+            </tr>
+            {{/each}}
+        </table>
+    </div>
+</section>
