@@ -1,18 +1,20 @@
-function solve(params) {
-    let garages = {};
-    for (let p of params) {
-        let tokens = p.split(' - ');
+function solveGarage(params) {
+    let garages = new Map();
+    for (let param of params) {
+        let tokens = param.split(' - ');
         let garageNumber = Number(tokens[0]);
-        if (garages[garageNumber] === undefined) {
-            garages[garageNumber] = [];
+        let carInfo = tokens[1].split(': ').join(' - ');
+ 
+        if (!garages.has(garageNumber)) {
+            garages.set(garageNumber, []);
         }
-        let car = tokens[1].replace(new RegExp(': ', 'g'), ' - ');
-        garages[garageNumber].push(car);
+ 
+        garages.get(garageNumber).push(carInfo);
     }
-    let sortedGarages = Object.keys(garages).sort((a, b) => a - b);
-    for (let garage of sortedGarages) {
+    let sortedGarages = [...garages];
+    for (let [garage, cars] of sortedGarages) {
         console.log(`Garage № ${garage}`);
-        for (let car of garages[garage]) {
+        for (let car of cars) {
             console.log(`--- ${car}`);
         }
     }
