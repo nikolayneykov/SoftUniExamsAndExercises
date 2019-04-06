@@ -1,0 +1,23 @@
+<div class="wrapper">
+    <form class="book-create" action="/edit/{{book._id}}" method="post">
+        <div class="create-header">
+            Edit Book
+        </div>
+        <div class="create-title">
+            <div class="create-title-label">Title</div>
+            <input type="text" class="create-title-content" name="title" value="{{book.title}}" />
+        </div>
+        <div class="create-bookitem">
+            <div class="create-bookitem-label">Author</div>
+            <input type="text" rows="3" class="create-bookitem-content" name="author" value="{{book.author}}" />
+        </div>
+        <div class="create-bookitem">
+            <div class="create-bookitem-label">Price</div>
+            <input type="number" step="any" min="1" rows="3" class="create-bookitem-content" name="price" value="{{book.price}}" />
+        </div>
+        <div class="create-button-holder">
+            <button type="submit" class="button">Edit Book</button>
+            <a type="button" href="/" class="button">Back</a>
+        </div>
+    </form>
+</div>

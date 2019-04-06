@@ -1,0 +1,25 @@
+<div class="wrapper">
+    <form class="book-create" action="/delete/{{book._id}}" method="post">
+        <div class="create-header">
+            Remove Book
+        </div>
+        <div class="create-title">
+            <div class="create-title-label">Title</div>
+            <input class="create-title-content" name="title" disabled="disabled" readonly value="{{book.title}}"/>
+        </div>
+        <div class="create-bookitem">
+            <div class="create-bookitem-label">Author</div>
+            <input rows="3" class="create-bookitem-content" name="author" disabled="disabled"
+                      readonly value="{{book.author}}"/>
+        </div>
+        <div class="create-bookitem">
+            <div class="create-bookitem-label">Price</div>
+            <input type="number" step="any" min="1" rows="3" class="create-bookitem-content" name="price" value="{{book.price}}" disabled="disabled"
+                      readonly/>
+        </div>
+        <div class="create-button-holder">
+            <button type="submit" class="button">Remove Book</button>
+            <a type="button" href="/" class="button">Back</a>
+        </div>
+    </form>
+</div>

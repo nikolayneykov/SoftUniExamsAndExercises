@@ -1,0 +1,32 @@
+<div class="wrapper">
+    <div class="button-holder">
+        <a type="button" href="/create" class="button">Add a new Book</a>
+    </div>
+    <div class="content">
+        <div class="header">
+            <div class="book-label">Title</div>
+            <div class="book-label">Author</div>
+            <div class="book-label">Price</div>
+            <div class="actions-label">Actions</div>
+        </div>
+        <div class="main">
+            {{#each books}}
+                <div class="book">
+                    <div class="book-title">
+                        {{title}}
+                    </div>
+                    <div class="book-item">
+                        {{author}}
+                    </div>
+                    <div class="book-item">
+                        {{price}}
+                    </div>
+                    <div class="project-actions">
+                        <a type="button" href="/edit/{{id}}" class="bookbutton">Edit</a>
+                        <a type="button" href="/delete/{{id}}" class="bookbutton">Remove</a>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+</div>
