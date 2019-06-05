@@ -1,0 +1,22 @@
+{
+  "name": "shopstoppart1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/gulp": "^4.0.6",
+    "@types/gulp-rename": "0.0.33",
+    "@types/multiparty": "0.0.32",
+    "@types/shortid": "0.0.29",
+    "gulp": "4.0.2",
+    "gulp-clean-css": "4.2.0",
+    "gulp-rename": "^1.4.0",
+    "multiparty": "^4.2.1",
+    "shortid": "^2.2.14"
+  }
+}
