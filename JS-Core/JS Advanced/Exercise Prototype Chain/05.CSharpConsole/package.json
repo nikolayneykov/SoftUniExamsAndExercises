@@ -1,0 +1,22 @@
+{
+  "name": "05.csharpconsole",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  },
+  "standard": {
+    "env": {
+      "mocha": true
+    }
+  }
+}
