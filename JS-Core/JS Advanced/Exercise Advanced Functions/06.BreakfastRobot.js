@@ -3,10 +3,10 @@ function solution (params) {
     const storage = { protein: 0, carbohydrate: 0, fat: 0, flavour: 0 }
     const recipesLibrary = {
       apple: { carbohydrate: 1, flavour: 2 },
-      coke: { carbohydrate: 10, flavour: 20 },
+      lemonade: { carbohydrate: 10, flavour: 20 },
       burger: { carbohydrate: 5, fat: 7, flavour: 3 },
-      omelet: { protein: 5, fat: 1, flavour: 1 },
-      cheverme: { protein: 10, carbohydrate: 10, fat: 10, flavour: 10 }
+      eggs: { protein: 5, fat: 1, flavour: 1 },
+      turkey: { protein: 10, carbohydrate: 10, fat: 10, flavour: 10 }
     }
 
     return input => {
@@ -44,12 +44,3 @@ function solution (params) {
     }
   })()
 }
-
-let manager = solution()
-manager('restock carbohydrate 10', 'Success')
-manager('restock flavour 10', 'Success')
-manager('prepare apple 1', 'Success')
-manager('restock fat 10', 'Success')
-manager('prepare burger 1', 'Success')
-manager('report')
-// manager('report', 'protein=0 carbohydrate=4 fat=3 flavour=5')
