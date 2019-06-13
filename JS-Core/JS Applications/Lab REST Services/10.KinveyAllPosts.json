@@ -1,0 +1,38 @@
+[
+  {
+      "_id": "5d01faefcd9f3747bf2d32de",
+      "body": "First Body",
+      "title": "First Title",
+      "_acl": {
+          "creator": "kid_rk4utdkyB"
+      },
+      "_kmd": {
+          "lmt": "2019-06-13T07:27:43.586Z",
+          "ect": "2019-06-13T07:27:43.586Z"
+      }
+  },
+  {
+      "_id": "5d01fafd6295a238e736a906",
+      "body": "Second Body",
+      "title": "Second Title",
+      "_acl": {
+          "creator": "kid_rk4utdkyB"
+      },
+      "_kmd": {
+          "lmt": "2019-06-13T07:27:57.810Z",
+          "ect": "2019-06-13T07:27:57.810Z"
+      }
+  },
+  {
+      "_id": "5d01fb0833b614469d552b64",
+      "body": "Third Body",
+      "title": "Third Title",
+      "_acl": {
+          "creator": "kid_rk4utdkyB"
+      },
+      "_kmd": {
+          "lmt": "2019-06-13T07:28:07.984Z",
+          "ect": "2019-06-13T07:28:07.984Z"
+      }
+  }
+]

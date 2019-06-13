@@ -1,0 +1,13 @@
+{
+  "title": "edited title",
+  "body": "edited author",
+  "hidden": "true",
+  "_id": "5d02094e86e9f445b71f847c",
+  "_acl": {
+      "creator": "5d01fa1086e9f445b71e5c0a"
+  },
+  "_kmd": {
+      "lmt": "2019-06-13T08:30:21.359Z",
+      "ect": "2019-06-13T08:29:02.273Z"
+  }
+}
