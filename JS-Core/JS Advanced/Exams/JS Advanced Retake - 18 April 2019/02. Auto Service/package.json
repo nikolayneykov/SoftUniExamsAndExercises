@@ -1,0 +1,14 @@
+{
+  "name": "auto-service",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  },
+  "standard": {
+    "env": {
+      "mocha": true
+    }
+  }
+}
